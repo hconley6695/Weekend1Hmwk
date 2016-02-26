@@ -32,12 +32,14 @@ ul.navigation-bar {
 	position: relative;
 }
 
-h1 {
+.container span {
 	text-align: center;
 	color: white;
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	/*text: 20px;*/
+	border: 2px solid red;
 }
 
 /*.container img	{
@@ -48,3 +50,46 @@ h1 {
 ul.plans {
 	list-style: none;
 }
+
+.column {
+	float: left;
+}
+
+
+.column span {
+	font-size: 60px;
+}
+
+.column p {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.personal {
+	background: green;
+	height: 200px;
+	width: 250px;
+}
+
+
+.business {
+	background: blue;
+	height: 200px;
+	width: 250px;
+}
+
+.enterprise {
+	background: black;
+	height: 200px;
+	width: 250px;
+}
+
+
+.detailed_info {
+	display: inline-block;
+}
+
+
+
+
