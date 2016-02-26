@@ -38,7 +38,7 @@ ul.navigation-bar {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	/*text: 20px;*/
+	font-size: 48px;
 	border: 2px solid red;
 }
 
@@ -47,7 +47,7 @@ ul.navigation-bar {
 	width: 100%;
 }*/
 
-ul.plans {
+.plans li {
 	list-style: none;
 }
 
@@ -60,10 +60,12 @@ ul.plans {
 	font-size: 60px;
 }
 
-.column p {
+.levels li {
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
+	list-style: none;
+	margin: auto;
 }
 
 .personal {
