@@ -1,12 +1,35 @@
 body 	{
 	font-family: Helvitica, sans-serif;
 }
+
+ul.navigation-bar {
+	list-style: none;
+}
+
+.navigation-bar li {
+	display: inline;
+	color: gray;
+	padding: 8px;
+}
+
+.navigation-bar a {
+	text-decoration: none;
+	color: black;
+}
 .jumbotron {
 	width: 100%;
 	height: 100%;
 
 }
 
-.jumbotron img {
+/*.jumbotron img {
 	height: 200px;
+}*/
+.container img	{
+	height: 500px;
+	max-width: 600px;
+}
+
+ul.plans {
+	list-style: none;
 }
