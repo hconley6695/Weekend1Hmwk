@@ -87,18 +87,22 @@ ul.plans {
 	margin-top: 25px;
 }*/
 
+ul.levels {
+	padding-top: 40px;
+}
+
 .levels li {
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
 	list-style: none;
 	margin: auto;
-	margin-top: 10px;
 }
+
 
 .personal {
 	background: mediumseagreen;
-	height: 200px;
+	height: 160px;
 	width: 270px;
 	padding-left: 0;
 	margin-left: 40px;
@@ -107,7 +111,7 @@ ul.plans {
 
 .business {
 	background: steelblue;
-	height: 200px;
+	height: 160px;
 	width: 270px;
 	padding-left: 0;
 	margin-left: 40px;
@@ -115,7 +119,7 @@ ul.plans {
 
 .enterprise {
 	background: black;
-	height: 200px;
+	height: 160px;
 	width: 270px;
 	padding-left: 0;
 	margin-left: 40px;
