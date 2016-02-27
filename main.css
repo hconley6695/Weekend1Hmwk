@@ -80,7 +80,7 @@ ul.plans {
 }
 
 .column span {
-	font-size: 60px;
+	font-size: 64px;
 }
 
 /*.levels ul {
@@ -88,15 +88,16 @@ ul.plans {
 }*/
 
 ul.levels {
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 .levels li {
 	color: white;
 	text-align: center;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	list-style: none;
 	margin: auto;
+	padding: 5px;
 }
 
 
