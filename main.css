@@ -60,7 +60,7 @@ div.offeredplans {
 .column {
 	float: left;
 	position: relative;
-	right: -15%;
+	right: -10%;
 }
 
 /*.pricing2 {
@@ -97,23 +97,28 @@ ul.plans {
 }
 
 .personal {
-	background: green;
+	background: mediumseagreen;
 	height: 200px;
-	width: 280px;
+	width: 270px;
 	padding-left: 0;
+	margin-left: 40px;
 }
 
 
 .business {
-	background: blue;
+	background: steelblue;
 	height: 200px;
-	width: 280px;
+	width: 270px;
+	padding-left: 0;
+	margin-left: 40px;
 }
 
 .enterprise {
 	background: black;
 	height: 200px;
-	width: 280px;
+	width: 270px;
+	padding-left: 0;
+	margin-left: 40px;
 }
 
 
