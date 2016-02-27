@@ -1,5 +1,8 @@
 body 	{
 	font-family: Helvitica, sans-serif;
+	margin: 0;
+	padding: 0;
+
 }
 
 ul.navigation-bar {
@@ -17,7 +20,7 @@ ul.navigation-bar {
 	color: black;
 }
 .container {
-	border: 3px solid yellow;
+	/*border: 3px solid yellow;*/
 	height: 400px;
 	width: 1208px;
 }
@@ -38,18 +41,25 @@ ul.navigation-bar {
 	text-align: center;
 	top: 50%;
 	left: 33%;
-	/*left: 35%;*/
 	font-size: 42px;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.pricing {
-	margin: auto;
-	border: 1px solid red;
+div.offeredplans {
+	width: 1208px;
+	height: 400px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	border: 1px solid yellow;
 }
+
+/*.pricing2 {
+	position: absolute;
+}*/
 
 ul.plans {
 	border: 1px solid red;
