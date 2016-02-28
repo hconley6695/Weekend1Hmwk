@@ -51,7 +51,7 @@ ul.navigation-bar {
 
 div.offeredplans {
 	width: 1208px;
-	height: 540px;
+	height: 600px;
 	/*height: 400px;*/
 	padding: 0;
 	margin: 0;
@@ -176,28 +176,32 @@ ul.plans {
 
 .plans li {
 	list-style: none;
-	border: .5px solid gray;
+	border: .5px solid lightgray;
 	text-align: center;
 	color: black;
 	background: whitesmoke;
-	height: 40px;
+	height: 30px;
+	padding-top: 15px;
 	font-size: 12px;
 	/*padding-top: 5px;*/
 	/*padding-bottom: 10px;
 	padding-top: 10px;*/
-	vertical-align: center;
+
 }
 
 .plans li:last-child {
 	background: white;
+	height: 50px;
 }
 
 .plans button {
 	background: white;
 	color: black;
-	border: .5px solid gray;
+	font-weight: bold;
+	border: .5px solid lightgray;
 	border-radius: 20px;
 	height: 30px;
+	width: 80px;
 }
 
 /*div.information {
