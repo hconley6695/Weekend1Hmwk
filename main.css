@@ -182,6 +182,10 @@ ul.plans {
 	background: whitesmoke;
 	height: 40px;
 	font-size: 12px;
+	/*padding-top: 5px;*/
+	/*padding-bottom: 10px;
+	padding-top: 10px;*/
+	vertical-align: center;
 }
 
 .plans li:last-child {
@@ -218,6 +222,8 @@ div.information span {
 div.information p {
 	font-size: 12px;
 	width: 320px;
+	line-height: 20px;
+	color: slategray;
 }
 
 .detailed_info {
