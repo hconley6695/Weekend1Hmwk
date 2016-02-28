@@ -169,18 +169,19 @@ ul.levels {
 
 
 ul.plans {
-	border: 1px darkgray;
+	/*border: 1px solid gray;*/
 	margin-top: 0;
 
 }
 
 .plans li {
 	list-style: none;
-	border: 1px red;
+	border: .5px solid gray;
 	text-align: center;
 	color: black;
 	background: whitesmoke;
 	height: 40px;
+	font-size: 12px;
 }
 
 .plans li:last-child {
@@ -190,14 +191,58 @@ ul.plans {
 .plans button {
 	background: white;
 	color: black;
-	border: 2px darkgray;
+	border: .5px solid gray;
 	border-radius: 20px;
 	height: 30px;
+}
+
+
+.information {
+	position: relative;
+	height: 300px;
+	width: 1000px;
+	border: 1px solid red;
+	position: -10%;
 
 
 }
+
+
 .detailed_info {
+	height: 150px;
+	width: 500px;
 	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+.detailed_info1 {
+	height: 150px;
+	width: 500px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.detailed_info2 {
+	height: 150px;
+	width: 500px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.detailed_info3 {
+	height: 150px;
+	width: 500px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 .footer {
