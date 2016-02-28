@@ -56,7 +56,7 @@ div.offeredplans {
 	padding: 0;
 	margin: 0;
 	/*position: relative;*/
-	border: 1px solid yellow;
+	/*border: 1px solid yellow;*/
 }
 
 .column {
@@ -178,7 +178,8 @@ ul.plans {
 	list-style: none;
 	border: .5px solid lightgray;
 	text-align: center;
-	color: black;
+	/*color: black;*/
+	color: slategray;
 	background: whitesmoke;
 	height: 30px;
 	padding-top: 15px;
@@ -212,10 +213,10 @@ ul.plans {
 .information {
 	position: relative;
 	height: 400px;
-	width: 850px;
-	border: 1px solid red;
+	width: 820px;
+	/*border: 1px solid red;*/
 	clear: both;
-	margin-left: 180px;
+	margin-left: 200px;
 
 }
 
@@ -225,48 +226,56 @@ div.information span {
 
 div.information p {
 	font-size: 12px;
-	width: 320px;
+	width: 360px;
 	line-height: 20px;
 	color: slategray;
 }
 
 .detailed_info {
-	height: 200px;
+	height: 180px;
 	width: 400px;
 	display: inline-block;
 	position: absolute;
 	top: 0;
 	left: 0;
 	/*margin-left: 20px;*/
+	/*border: 1px solid red;*/
+	padding-top: 10px;
 
 
 }
 
 .detailed_info1 {
-	height: 200px;
+	height: 180px;
 	width: 400px;
 	display: inline-block;
 	position: absolute;
 	top: 0;
 	right: 0;
+	/*border: 1px solid red;*/
+	padding-top: 10px;
 }
 
 .detailed_info2 {
-	height: 200px;
+	height: 180px;
 	width: 400px;
 	display: inline-block;
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	/*border: 1px solid red;*/
+	padding-top: 10px;
 }
 
 .detailed_info3 {
-	height: 200px;
+	height: 180px;
 	width: 400px;
 	display: inline-block;
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	/*border: 1px solid red;*/
+	padding-top: 10px;
 }
 
 .footer {
@@ -279,17 +288,18 @@ div.information p {
 .text-footer {
 	position: absolute;
 	top: 33%;
-	left: 33%;
+	left: 28%;
 	text-align: center;
+	font-size: 12px;
 }
 
 .text-footer a {
 	color: white;
-	font-size: 11px;
+	font-size: 12px;
 }
 .text-footer span {
 	color: white;
-	font-size: 11px;
+	font-size: 12px;
 	opacity: .5;
 }
 
