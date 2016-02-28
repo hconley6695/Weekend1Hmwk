@@ -23,11 +23,12 @@ ul.navigation-bar {
 	/*border: 3px solid yellow;*/
 	height: 400px;
 	width: 1208px;
+	position: relative;
 }
 .container img {
 	/*height: 100%;
 	width: 100%;*/
-	position: relative;
+	/*position: relative;
 	display: block;
 	/*margin-left: auto;
 	margin-right: auto;*/
@@ -50,7 +51,8 @@ ul.navigation-bar {
 
 div.offeredplans {
 	width: 1208px;
-	height: 400px;
+	height: 540px;
+	/*height: 400px;*/
 	padding: 0;
 	margin: 0;
 	/*position: relative;*/
@@ -67,18 +69,47 @@ div.offeredplans {
 	position: absolute;
 }*/
 
+ul.levels.personal {
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+
+ul.levels.business {
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+
+ul.levels.enterprise {
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+/*
 ul.plans {
-	border: 1px solid red;
+	/*border: 1px darkgray;*/
+	/*margin-top: 0;
 }
 
 .plans li {
 	list-style: none;
-	border: 1px solid red;
-	text-align: center;
-	color: gray;
-	background: lightgray;
+	/*border: 1px red;*/
+	/*text-align: center;
+	color: black;
+	background: whitesmoke;
+	height: 40px;
 }
 
+.plans li:last-child {
+	background: white;
+}
+
+.plans button {
+	background: white;
+	color: black;
+	border: 2px darkgray;
+	border-radius: 20px;
+	height: 30px;
+}
+*/
 .column span {
 	font-size: 72px;
 	font-weight: lighter;
@@ -104,14 +135,15 @@ ul.levels {
 
 }
 .levels p {
-	color: gray;
+	/*color: gray;*/
+	opacity: .5;
 	margin-top: 0;
 	letter-spacing: 0;
 	font-weight: bold;
 }
 
 .personal {
-	background: mediumseagreen;
+	background: darkseagreen;
 	height: 160px;
 	width: 270px;
 	padding-left: 0;
@@ -136,10 +168,60 @@ ul.levels {
 }
 
 
+ul.plans {
+	border: 1px darkgray;
+	margin-top: 0;
+
+}
+
+.plans li {
+	list-style: none;
+	border: 1px red;
+	text-align: center;
+	color: black;
+	background: whitesmoke;
+	height: 40px;
+}
+
+.plans li:last-child {
+	background: white;
+}
+
+.plans button {
+	background: white;
+	color: black;
+	border: 2px darkgray;
+	border-radius: 20px;
+	height: 30px;
+
+
+}
 .detailed_info {
 	display: inline-block;
 }
 
+.footer {
+	background: black;
+	height: 60px;
+	width: 1208px;
+	position: relative;
+}
 
+.text-footer {
+	position: absolute;
+	top: 33%;
+	left: 33%;
+	text-align: center;
+}
+
+.text-footer a {
+	color: white;
+	font-size: 11px;
+}
+.text-footer span {
+	color: white;
+	font-size: 11px;
+	opacity: .5;
+}
 
 
