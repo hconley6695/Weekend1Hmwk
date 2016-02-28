@@ -196,31 +196,45 @@ ul.plans {
 	height: 30px;
 }
 
+/*div.information {
+	left: 8%;
+}*/
+
 
 .information {
 	position: relative;
-	height: 300px;
-	width: 1000px;
+	height: 400px;
+	width: 850px;
 	border: 1px solid red;
-	position: -10%;
-
+	clear: both;
+	margin-left: 180px;
 
 }
 
+div.information span {
+	letter-spacing: 5px;
+}
+
+div.information p {
+	font-size: 12px;
+	width: 320px;
+}
 
 .detailed_info {
-	height: 150px;
-	width: 500px;
+	height: 200px;
+	width: 400px;
 	display: inline-block;
 	position: absolute;
 	top: 0;
 	left: 0;
+	/*margin-left: 20px;*/
+
 
 }
 
 .detailed_info1 {
-	height: 150px;
-	width: 500px;
+	height: 200px;
+	width: 400px;
 	display: inline-block;
 	position: absolute;
 	top: 0;
@@ -228,8 +242,8 @@ ul.plans {
 }
 
 .detailed_info2 {
-	height: 150px;
-	width: 500px;
+	height: 200px;
+	width: 400px;
 	display: inline-block;
 	position: absolute;
 	bottom: 0;
@@ -237,8 +251,8 @@ ul.plans {
 }
 
 .detailed_info3 {
-	height: 150px;
-	width: 500px;
+	height: 200px;
+	width: 400px;
 	display: inline-block;
 	position: absolute;
 	bottom: 0;
